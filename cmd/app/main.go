@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "student-lms/internal/app"
 
+func main() {
+	app.Run()
 }
