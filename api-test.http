@@ -1,0 +1,17 @@
+### Sign Up POST with JSON
+POST http://127.0.0.1:8000/auth/sign-up
+Content-Type: application/json
+
+{
+  "email": "test@test.ru",
+  "password": "qwerty"
+}
+
+###  Sign In POST with JSON
+POST http://127.0.0.1:8000/auth/sign-in
+Content-Type: application/json
+
+{
+  "email": "test@test.ru",
+  "password": "qwerty"
+}
